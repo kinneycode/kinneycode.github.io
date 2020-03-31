@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>程序猫</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://kinneycode.github.io/"/>
+  <updated>2020-03-31T07:53:56.844Z</updated>
+  <id>https://kinneycode.github.io/</id>
+  
+  <author>
+    <name>kinney</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo命令</title>
+    <link href="https://kinneycode.github.io/2020/03/30/hexo%E5%91%BD%E4%BB%A4/"/>
+    <id>https://kinneycode.github.io/2020/03/30/hexo%E5%91%BD%E4%BB%A4/</id>
+    <published>2020-03-30T12:14:53.473Z</published>
+    <updated>2020-03-31T07:53:56.844Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+
+&lt;p&gt;hexo是一个个人网站生成器，它基于node.js，可快速、简单、强大的生成静态博客框架。&lt;/p&gt;
+&lt;p&gt;特收集它的常用命令整理于此，网络上亦有大量文档可供查阅，可到&lt;a href=&quot;https://link.jianshu.com?t
+      
+    
+    </summary>
+    
+    
+    
+      <category term="hexo" scheme="https://kinneycode.github.io/tags/hexo/"/>
+    
+      <category term="命令" scheme="https://kinneycode.github.io/tags/%E5%91%BD%E4%BB%A4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>jQuery对表单的操作及更多应用</title>
+    <link href="https://kinneycode.github.io/2017/05/26/hello-world/"/>
+    <id>https://kinneycode.github.io/2017/05/26/hello-world/</id>
+    <published>2017-05-26T04:12:57.000Z</published>
+    <updated>2020-03-31T06:12:38.081Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+      <category term="web前端" scheme="https://kinneycode.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="问候语" scheme="https://kinneycode.github.io/tags/%E9%97%AE%E5%80%99%E8%AF%AD/"/>
+    
+  </entry>
+  
+</feed>
