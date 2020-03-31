@@ -56,7 +56,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/cat.ico?v=5.1.4">
 
 
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
@@ -64,6 +64,8 @@
 
   <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
 
+
+  <link rel="manifest" href="/images/cat.ico">
 
 
 
@@ -253,7 +255,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="kinney">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2944822294,132377759&fm=26&gp=0.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -319,20 +321,21 @@
       
         
           
-            <a id="more"></a>
-
-<p>hexo是一个个人网站生成器，它基于node.js，可快速、简单、强大的生成静态博客框架。</p>
-<p>特收集它的常用命令整理于此，网络上亦有大量文档可供查阅，可到<a href="https://link.jianshu.com?t=https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">官方</a></p>
-<h2 id="hexo-init"><a href="#hexo-init" class="headerlink" title="hexo init"></a>hexo init</h2><p>初始化站点，生成一个简单网站所需的各种文件。</p>
-<h2 id="hexo-generate-hexo-g"><a href="#hexo-generate-hexo-g" class="headerlink" title="hexo generate == hexo g"></a>hexo generate == hexo g</h2><p>生效新增、修改、更新的文件</p>
-<h2 id="hexo-server-hexo-s"><a href="#hexo-server-hexo-s" class="headerlink" title="hexo server == hexo s"></a>hexo server == hexo s</h2><p>启动本地网站，可在本地观察网站效果</p>
-<h2 id="hexo-s-–debug"><a href="#hexo-s-–debug" class="headerlink" title="hexo s –debug"></a>hexo s –debug</h2><p>以调试模式启动本地网站，在此模式下，对文件的更改无需停止网站只需刷新即可看到效果，调试非常方便</p>
-<h2 id="hexo-deploy-hexo-d"><a href="#hexo-deploy-hexo-d" class="headerlink" title="hexo deploy == hexo d"></a>hexo deploy == hexo d</h2><p>hexo的一键部署功能，执行此命令即可将网站发布到配置中的仓库地址。</p>
-<p>所以执行此命令前需要配置<code>站点配置文件</code>_config.yml</p>
-<h2 id="hexo-new-layout-lt-title-gt"><a href="#hexo-new-layout-lt-title-gt" class="headerlink" title="hexo new [layout] &lt; title &gt;"></a>hexo new [layout] &lt; title &gt;</h2><p>在站点目录下执行此命令新建一篇文章，layout参数可选，title必填。</p>
-<p>Hexo 有三种默认布局：post、page 和 draft，它们分别对应不同的路径，而您自定义的其他布局和 post 相同，都将储存到 source/_posts 文件夹。</p>
-
           
+
+hexo是一个个人网站生成器，它基于node.js，可快速、简单、强大的生成静态博客框架。
+特收集它的常用命令整理于此，网络上亦有大量文档可供查阅，可到官方
+hexo init初始化站点，生成一个简单网站所需的各种文件。
+hexo generate == hexo g生效新增、修改、更新的文件
+
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2020/03/30/hexo%E5%91%BD%E4%BB%A4/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -384,7 +387,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="kinney">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2944822294,132377759&fm=26&gp=0.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -472,21 +475,15 @@
       
         
           
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
+          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in 
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/05/26/hello-world/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -554,6 +551,10 @@
       <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2944822294,132377759&fm=26&gp=0.jpg"
+                alt="kinney" />
             
               <p class="site-author-name" itemprop="name">kinney</p>
               <p class="site-description motion-element" itemprop="description"></p>
